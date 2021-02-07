@@ -1,0 +1,26 @@
+﻿@inherits ScreenshotManageVm
+
+<strong>Галерея скриншотов</strong>
+
+<div class="content">
+    <div class="container">
+        <div class="row row-cols-auto">
+            @foreach (var screenshot in Screenshots)
+            {
+                var screenNumber = screenshot.Number;
+                var format = screenshot.Format;
+                
+                <div class="col adm-screen-row">
+                    <div class="adm-screen-block">
+                        <div class="adm-screen-block-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="e => RemoveScreenshot(e,screenNumber, format) "></button>
+                        </div>
+                        <img src="@screenshot.MediumImgSrc" width="150px" alt=""/>
+                    </div>
+                    
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<br/>

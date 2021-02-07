@@ -1,0 +1,18 @@
+@media screen and (min-width: 970px) {
+  .screenshots-block {
+    width: 65vw;
+    flex: 0 0 65vw;
+  }
+}
+.media-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen-carousel {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=ImgCarouselComponent.razor.css.map */

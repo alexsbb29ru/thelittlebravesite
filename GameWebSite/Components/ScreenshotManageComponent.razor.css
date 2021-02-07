@@ -1,0 +1,22 @@
+.adm-screen-row {
+  margin-bottom: 1rem;
+}
+
+.adm-screen-block {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e7e7e7;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+.adm-screen-block-header {
+  display: flex;
+  align-items: center;
+}
+
+.adm-screen-block-header .btn-close {
+  margin: -0.5rem -0.3rem 0.2rem auto;
+}
+
+/*# sourceMappingURL=ScreenshotManageComponent.razor.css.map */

@@ -1,0 +1,32 @@
+﻿@inherits LoadScreenShotsVm
+
+
+<strong>Загрузка скриншотов</strong>
+
+<div class="content">
+    <form>
+        <div class="mb-3">
+            <div class="input-group">
+                <InputFile class="form-control" id="inputScreenshot" aria-describedby="inputScreenshot" aria-label="Upload" OnChange="@OnInputFileChange" multiple/>
+                <button class="btn btn-outline-secondary" id="loadScreenshotsBtn" type="button" @onclick="OnLoadFile">Загрузить</button>
+            </div>
+        </div>
+        <div class="mb-3">
+            <div class="row">
+                @foreach (var imgUrl in ImageDataUrls)
+                {
+                    <img src="@imgUrl.Base64" alt="" style="width: 150px;"/>
+                }
+            </div>
+        </div>
+        @{
+            var progressCss = (IsShowSpinner ? "" : "d-none");
+        }
+
+        <div class="d-flex justify-content-center @progressCss">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "spsl";
+  src: url("fonts/spsl.ttf");
+}
+.description {
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e4d8b7;
+  font-family: spsl, serif;
+  cursor: default;
+}
+
+.world-description {
+  text-align: center;
+}
+
+@media screen and (min-width: 370px) {
+  .description {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 970px) {
+  .world-description {
+    width: 65vw;
+    flex: 0 0 65vw;
+  }
+
+  .description {
+    font-size: x-large;
+  }
+}
+
+/*# sourceMappingURL=Index.razor.css.map */

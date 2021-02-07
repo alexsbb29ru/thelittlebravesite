@@ -1,0 +1,8 @@
+﻿@inherits CharacterListVm
+
+@foreach (var character in CharacterList)
+{
+    <CharacterDescriptionComponent
+        ImageSrc=@character.AvatarImageSrc
+        CharacterDescription=@character.Description/>
+}
