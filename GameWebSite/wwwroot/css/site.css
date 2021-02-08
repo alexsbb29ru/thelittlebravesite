@@ -64,4 +64,8 @@ a, .btn-link {
     border-radius: .25rem;
     padding: 2rem 1rem;
 }
-
+.main{
+    background-image: url("../images/mainBg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

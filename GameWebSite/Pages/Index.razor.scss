@@ -2,7 +2,6 @@
   font-family: "spsl";
   src: url("fonts/spsl.ttf");
 }
-
 .description{
   margin-bottom: 2rem;
   width: 100%;
@@ -17,6 +16,8 @@
 }
 .world-description{
   text-align: center;
+  background-image: url("images/story_background.png");
+  background-repeat: no-repeat;
 }
 @media screen and (min-width: 370px){
   .description{

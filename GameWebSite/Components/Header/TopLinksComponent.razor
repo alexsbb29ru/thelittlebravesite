@@ -1,0 +1,16 @@
+﻿@inherits TopLinksVm
+
+<div class="container" id="topLinks">
+    @if (!IsAvailable)
+    {
+        <div class="available-release">
+            <p>awaiting on</p>
+        </div>
+    }
+    <div class="platform-row">
+        @foreach (var platform in Platforms)
+        {
+            <a href="#"><img class="platform-logo" src="@platform.LogoSrc" alt="@platform.PlatformName"/></a>
+        }
+    </div>
+</div>

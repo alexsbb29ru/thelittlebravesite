@@ -7,6 +7,7 @@ namespace GameWebSite.Components.ViewModels
     public class TopLinksVm : ComponentBase
     {
         protected List<PlatformModel> Platforms { get; }
+        protected bool IsAvailable = false;
         
         public TopLinksVm()
         {
@@ -14,13 +15,13 @@ namespace GameWebSite.Components.ViewModels
             {
                 new PlatformModel()
                 {
-                    PlatformName = "PlayStation",
-                    LogoSrc = "images/ps-logo.svg"
+                    PlatformName = "Steam",
+                    LogoSrc = "images/steam.png"
                 },
                 new PlatformModel()
                 {
-                    PlatformName = "XBOX",
-                    LogoSrc = "images/xbox-logo.svg"
+                    PlatformName = "Epic games",
+                    LogoSrc = "images/epic_games.png"
                 }
             };
         }

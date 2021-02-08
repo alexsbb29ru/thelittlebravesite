@@ -1,0 +1,62 @@
+#topLinks {
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+.available-release {
+  display: flex;
+  justify-content: center;
+  font-family: spsl, sans-serif;
+  color: #e4d8b7;
+}
+
+.platform-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.platform-row > * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.platform-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.platform-btn > * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.platform-logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+@media screen and (min-width: 310px) {
+  .available-release {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 370px) {
+  .available-release {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 710px) {
+  .available-release {
+    font-size: xx-large;
+  }
+}
+@media screen and (min-width: 970px) {
+  .available-release {
+    font-size: xxx-large;
+  }
+}
+
+/*# sourceMappingURL=TopLinksComponent.razor.css.map */
