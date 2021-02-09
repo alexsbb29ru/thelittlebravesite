@@ -33,6 +33,7 @@ namespace GameWebSite
             services.AddSingleton<WeatherForecastService>();
             
             services.AddSingleton<IGetScreenshots, GetScreenshots>();
+            services.AddSingleton<IGetSocialMedia, GetSocialMedia>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

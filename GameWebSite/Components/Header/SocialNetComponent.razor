@@ -1,0 +1,14 @@
+﻿@inherits SocialNetVm
+
+<aside class="social">
+    <p class="social-net-text texting">
+        social media
+    </p>  
+    
+    @foreach (var social in SocialsList)
+    {
+        <a href="@social.Link" target="_blank" class="social-link">
+            <img src="@social.SocialLogoImgPath" alt="@social.SocialName"/>
+        </a>
+    }
+</aside>

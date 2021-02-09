@@ -9,8 +9,6 @@
 
 .character-description {
   text-align: center;
-  font-family: "spsl", serif;
-  color: #E4D8B7;
 }
 
 @media screen and (min-width: 320px) {

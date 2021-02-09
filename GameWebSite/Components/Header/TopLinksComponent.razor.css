@@ -2,13 +2,16 @@
   position: absolute;
   bottom: 0;
   padding: 0.5rem 0.5rem 2rem 0.5rem;
+  user-select: none;
 }
 
 .available-release {
   display: flex;
   justify-content: center;
-  font-family: spsl, sans-serif;
-  color: #e4d8b7;
+}
+
+.available-release p {
+  margin-bottom: 0;
 }
 
 .platform-row {
@@ -50,12 +53,7 @@
 }
 @media screen and (min-width: 710px) {
   .available-release {
-    font-size: xx-large;
-  }
-}
-@media screen and (min-width: 970px) {
-  .available-release {
-    font-size: xxx-large;
+    font-size: x-large;
   }
 }
 

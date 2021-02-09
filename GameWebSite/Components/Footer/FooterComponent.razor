@@ -1,0 +1,39 @@
+﻿@inherits FooterVm
+
+<div id="footer">
+    <div class="texting">
+        <p>
+            Follow the Little Brave
+        </p>
+    </div>
+    <div class="footer-media">
+        @foreach (var social in SocialsList)
+        {
+            <a href="@social.Link" target="_blank" class="footer-social-link">
+                <img src="@social.SocialLogoImgPath" alt="@social.SocialName"/>
+            </a>
+        }
+    </div>
+    <BottomPlatformsLinlksComponent/>
+    <div class="pegi">
+        @foreach (var pegi in PegiList)
+        {
+            <img src="@pegi.LogoSrc" alt="@pegi.Name"/>
+        }
+    </div>
+    <div class="made-with">
+        <img src="@MadeWithLogoSrc" alt="Made with Unity">
+    </div>
+    <div class="footer-copyright texting container">
+        <div class="row">
+            <div class="copyright col">
+                @CopyrightStr
+            </div>
+            <div class="contact-data col">
+                Developer contacts:
+                <a href="@DeveloperContact.Mail">Email</a>
+                <a href="@DeveloperContact.Media.Link">@DeveloperContact.Media.SocialName</a>
+            </div>
+        </div>
+    </div>
+</div>

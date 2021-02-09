@@ -12,4 +12,9 @@
       <Folder Include="wwwroot\images\screenshots" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\images\rates\pegi7.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\rates\violence.jpg" />
+    </ItemGroup>
+
 </Project>

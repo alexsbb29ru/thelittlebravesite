@@ -1,6 +1,7 @@
 ﻿@inherits TopLinksVm
 
-<div class="container" id="topLinks">
+<br/>
+<div class="container footer-platforms-block">
     @if (!IsAvailable)
     {
         <div class="available-release texting">
@@ -10,7 +11,9 @@
     <div class="platform-row">
         @foreach (var platform in Platforms)
         {
-            <a href="#" target="_blank"><img class="platform-logo" src="@platform.LogoSrc" alt="@platform.PlatformName"/></a>
+            <a href="#" target="_blank">
+                <img class="platform-logo" src="@platform.LogoSrc" alt="@platform.PlatformName"/>
+            </a>
         }
     </div>
 </div>

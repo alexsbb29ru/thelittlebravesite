@@ -12,7 +12,7 @@
   background-image: url("images/Banner.png");
   background-position: top;
   background-size: cover;
-  box-shadow: 0 1rem 2rem black;
+  box-shadow: 0 1rem 2rem black, inset 0 -1rem 2rem black;
 
   position: relative;
   display: flex;
@@ -102,8 +102,8 @@
     height: 10rem;
   }
   #playButton{
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
   }
   .top-header{
     padding-top: 7rem;

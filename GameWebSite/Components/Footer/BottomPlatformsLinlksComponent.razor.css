@@ -1,0 +1,28 @@
+.available-release {
+  display: flex;
+  justify-content: center;
+}
+
+.platform-row {
+  display: flex;
+  justify-content: center;
+}
+
+.platform-row a {
+  margin: auto 2rem;
+}
+
+.platform-logo {
+  width: 3.5rem;
+}
+
+.platform-logo {
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+.platform-logo:hover {
+  opacity: 100%;
+}
+
+/*# sourceMappingURL=BottomPlatformsLinlksComponent.razor.css.map */

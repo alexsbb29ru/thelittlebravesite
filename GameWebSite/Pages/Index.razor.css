@@ -1,15 +1,9 @@
-@font-face {
-  font-family: "spsl";
-  src: url("fonts/spsl.ttf");
-}
 .description {
   margin-bottom: 2rem;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #e4d8b7;
-  font-family: spsl, serif;
   cursor: default;
 }
 
