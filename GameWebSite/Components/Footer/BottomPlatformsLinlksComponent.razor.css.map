@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["BottomPlatformsLinlksComponent.razor.scss"],"names":[],"mappings":"AAAC;EACC;EACA;;;AAGF;EACE;EACA;;;AAEF;EACE;;;AAEF;EACE;;;AAEF;EACE;EACA;;;AAEF;EACE","file":"BottomPlatformsLinlksComponent.razor.css"}
+{"version":3,"sourceRoot":"","sources":["BottomPlatformsLinlksComponent.razor.scss"],"names":[],"mappings":"AAAC;EACC;EACA;;;AAEF;EACE;EACA;;AAEA;EACE;;;AAGJ;EACE;EAEA;EACA;;AACA;EACE;;;AAIJ;EACE;IACE;;;AAIJ;EACE;IACE","file":"BottomPlatformsLinlksComponent.razor.css"}

@@ -1,18 +1,21 @@
-﻿.adm-screen-row{
+﻿.adm-screen-row {
   margin-bottom: 1rem;
 }
-.adm-screen-block{
+
+.adm-screen-block {
   display: flex;
   flex-direction: column;
-  
+
   border: 2px solid #e7e7e7;
   border-radius: .25rem;
   padding: .5rem;
 }
-.adm-screen-block-header{
+
+.adm-screen-block-header {
   display: flex;
   align-items: center;
-}
-.adm-screen-block-header .btn-close{
-  margin: -.5rem -.3rem .2rem auto;
+
+  .btn-close {
+    margin: -.5rem -.3rem .2rem auto;
+  }
 }

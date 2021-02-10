@@ -1,34 +1,40 @@
-﻿#topLinks{
+﻿#topLinks {
   position: absolute;
   bottom: 0;
   padding: 0.5rem .5rem 2rem .5rem;
-  
+
   user-select: none;
 }
-.available-release{
+
+.available-release {
   display: flex;
   justify-content: center;
+
+  p {
+    margin-bottom: 0;
+  }
 }
-.available-release p{
-  margin-bottom: 0;
-}
-.platform-row{
+
+.platform-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+  & > * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
-.platform-row > *{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.platform-btn{
+
+.platform-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.platform-btn > * {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  
+  &> * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 .platform-logo {
@@ -36,18 +42,20 @@
   height: 2.5rem;
 }
 
-@media screen and (min-width: 310px){
-  .available-release{
+@media screen and (min-width: 310px) {
+  .available-release {
     font-size: large;
   }
 }
-@media screen and (min-width: 370px){
-  .available-release{
+
+@media screen and (min-width: 370px) {
+  .available-release {
     font-size: large;
   }
 }
-@media screen and (min-width: 710px){
-  .available-release{
+
+@media screen and (min-width: 710px) {
+  .available-release {
     font-size: x-large;
   }
 }

@@ -18,16 +18,14 @@
   text-shadow: 0 0 10px black, 0 0 10px black;
 }
 
-.social-link img {
-  width: 2.5rem;
-}
-
 .social-link {
   transition: 0.3s;
   opacity: 70%;
   margin-bottom: 1.5rem;
 }
-
+.social-link img {
+  width: 2.5rem;
+}
 .social-link:hover {
   opacity: 100%;
 }

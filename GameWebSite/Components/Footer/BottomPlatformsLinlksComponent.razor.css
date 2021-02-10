@@ -7,22 +7,28 @@
   display: flex;
   justify-content: center;
 }
-
 .platform-row a {
   margin: auto 2rem;
 }
 
 .platform-logo {
   width: 3.5rem;
-}
-
-.platform-logo {
   opacity: 70%;
   transition: 0.3s;
 }
-
 .platform-logo:hover {
   opacity: 100%;
+}
+
+@media screen and (min-width: 0px) {
+  .platform-logo {
+    width: 2.5rem;
+  }
+}
+@media screen and (min-width: 970px) {
+  .platform-logo {
+    width: 3.5rem;
+  }
 }
 
 /*# sourceMappingURL=BottomPlatformsLinlksComponent.razor.css.map */

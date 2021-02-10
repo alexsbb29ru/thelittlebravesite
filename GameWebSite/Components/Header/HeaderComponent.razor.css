@@ -45,7 +45,6 @@
   border-radius: 50%;
   box-shadow: 0 2px 5px;
 }
-
 #playButton:hover {
   user-select: none;
   fill-opacity: 100%;
